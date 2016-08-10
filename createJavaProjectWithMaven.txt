@@ -1,0 +1,5 @@
+--Paso 1: Ejecutar este comando
+mvn archetype:generate -DgroupId=atc.com.mx -DartifactId=extracting-data -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+--Paso 2: Ingresar al folder del project y ejecutar
+mvn eclipse:eclipse

@@ -1,0 +1,30 @@
+--Datos Ambiente Desarrollo local
+
+--Oracle Weblogic
+
+user:weblogic
+pass:1234567$
+
+--Glassfih
+user:admin
+pass:1234567$
+
+
+--Mysql Sever
+user:root
+pass: 1234567$
+Documentacion util
+https://www.linode.com/docs/databases/mysql/install-mysql-on-ubuntu-14-04
+
+http://blog.payara.fish/an-introduction-to-connection-pools-in-payara-server
+
+--Create connection pool usani ./asadmin command
+asadmin create-jdbc-connection-pool --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --restype javax.sql.DataSource --property user=root:password=1234567$:DatabaseName=inventario:ServerName=localhost:port=3306 iventario-pool
+
+
+asadmin create-jdbc-connection-pool --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlXADataSource --restype javax.sql.XADataSource --property user=root:password=1234567$:DatabaseName=inventario:ServerName=localhost:port=3306 inventario-pool
+
+--Test connection pool
+asadmin ping-connection-pool inventario-pool
+
+com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
