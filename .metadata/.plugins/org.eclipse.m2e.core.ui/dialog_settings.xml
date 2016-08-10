@@ -32,6 +32,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/jparanda/workSpaceJuan/WebSocketHome"/>
 			<item value="/home/jparanda/workSpaceJuan/JavaApplication1"/>
 			<item value="/home/jparanda/workSpaceJuan/extracting-data"/>
 		</list>

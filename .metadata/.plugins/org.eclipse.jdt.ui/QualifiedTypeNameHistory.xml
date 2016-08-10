@@ -16,4 +16,8 @@
 <fullyQualifiedTypeName name="org.junit.Ignore"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.websocket.server.ServerEndpoint"/>
+<fullyQualifiedTypeName name="javax.websocket.OnOpen"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.ApplicationScoped"/>
+<fullyQualifiedTypeName name="javax.websocket.Session"/>
 </qualifiedTypeNameHistroy>
